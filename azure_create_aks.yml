@@ -1,0 +1,12 @@
+- name: Create Azure Kubernetes Service
+  hosts: localhost
+  connection: local
+  vars:
+    resource_group: myResourceGroup
+  tasks:
+  - name: Create resource group
+    hosts: localhost
+  connection: local
+  - name: Create a managed Azure Container Services (AKS) cluster
+    hosts: localhost
+  connection: local
